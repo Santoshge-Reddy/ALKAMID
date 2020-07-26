@@ -10,7 +10,8 @@ python main.py
 
 
 main.py
-From alkamid import Alkamid
+
+from alkamid import Alkamid
 alkamid = Alkamid()
 
 ## Dictionaries for chemical_details and chemicals_in_plants 
