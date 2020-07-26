@@ -44,7 +44,7 @@ class Alkamid():
 		self.details = [self.chemical_details, self.chemicals_in_plants]
 
 		if(self.save_to_json == True):
-			print('saving data to json files')
+			print('saved data to json files')
 			file_name = str(int(time.time()))
 			# detect the current working directory and print it
 			path = os.getcwd()
@@ -171,7 +171,7 @@ class Alkamid():
 
 			self.mean_standard_deviation = [mean, std]
 
-
+			# statistics of the data
 			self.statistics = {
 				'unique_plants' : self.stat_unique_plants,
 				'unique_chemicals' : self.stat_unique_chemicals,
@@ -179,6 +179,7 @@ class Alkamid():
 				'mean_and_std' : self.mean_standard_deviation,
 				'longest_chemical_name' : self.longest_chemical_name,
 			}
+
 
 
 
