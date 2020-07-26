@@ -14,7 +14,8 @@ from alkamid import Alkamid
 alkamid = Alkamid()
 
 ## Dictionaries for chemical_details and chemicals_in_plants 
-chemical_details = alkamid.chemical_details
+chemical_details = alkamid.chemical_details,
+
 chemicals_in_plants = alkamid.chemicals_in_plants
 
 ## Dataframe of the chemical details
